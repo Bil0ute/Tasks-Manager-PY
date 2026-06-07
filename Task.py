@@ -83,7 +83,7 @@ while res != 6:
         if not tasks:
             print("Aucune tâche pour le moment")
         else:
-            vld = input("Souhaitez vous voir les tâches validées ou non validées ? (oui/non) ")
+            vld = input("Souhaitez vous voir les tâches validées ou non validées ? (validée/invalidée) ")
             if vld == "oui":
                 for i in range (len(tasks)):
                     if tasks[i]["faite"] == True:
